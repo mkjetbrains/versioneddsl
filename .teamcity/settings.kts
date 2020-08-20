@@ -43,6 +43,10 @@ object Build : BuildType({
             name = "STEP NAME 111"
             scriptContent = """echo("test")"""
         }
+        script {
+            name = "STEP NAME 222"
+            scriptContent = """echo("test2")"""
+        }
     }
 
     triggers {
